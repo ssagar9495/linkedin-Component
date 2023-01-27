@@ -1,0 +1,62 @@
+.mainContainer {
+  text-align: center;
+  position: relative;
+  height: 100vh;
+}
+.botomContainer {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+.bottomTab {
+  width: 309px;
+  border: 1px solid lightgray;
+  padding: 4px 10px 0px 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  text-align: start;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.upperTab {
+  width: 320px;
+  border-bottom: 1px solid lightgray;
+  padding: 5px 5px 5px 5px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  text-align: start;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.arrowIcon {
+  font-size: 36px !important;
+  cursor: pointer !important;
+  font-size: 25px !important;
+}
+.profileImage {
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  border: 1px solid lightgray;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.rightBox {
+  display: flex;
+  align-items: center;
+}
+.leftBox {
+}
+
+.text {
+  font-weight: 700;
+}
+.iconStyles {
+  font-size: 20px !important;
+}
